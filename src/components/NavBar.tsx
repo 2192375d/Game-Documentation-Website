@@ -1,4 +1,7 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom';
+
+import { wikis } from '@data/wikis';
+import { wikiRouteBase } from '@data/constants';
 
 export default function NavBar() {
   return (
@@ -14,7 +17,12 @@ export default function NavBar() {
     }}>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
-      <Link to="/touhou10">Touhou 10: Mountan Of Faith</Link>
+      <hr style={{ width: "100%" }} />
+      {wikis.map(({ id, title }) => (
+        <Link to={wikiRouteBase + '/' + id}>
+          {title}
+        </Link>
+      ))}
     </div>
   );
 }

@@ -40,12 +40,16 @@
       "@routes/*": [
         "./src/routes/*"
       ],
-      "@types/*": [
-        "./src/types/*"
+      "@datatypes/*": [
+        "./src/datatypes/*"
+      ],
+      "@data/*": [
+        "./src/data/*"
       ]
     }
   },
   "include": [
-    "src"
+    "src",
+    "public/wikis"
   ]
 }

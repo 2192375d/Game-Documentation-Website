@@ -1,1 +1,13 @@
+body {
+  minWidth: 200rem;
+}
 
+.hcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.vcontainer{
+  display: flex;
+  flex-direction: column;
+}
