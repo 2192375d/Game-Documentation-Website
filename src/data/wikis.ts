@@ -4,7 +4,7 @@ export const wikis: Wiki[] = [
   {
     id: "th10",
     title: "Touhou 10: Mountain of Faith",
-    imageSrc: "th10/cover.png",
+    imageSrc: "th10/cover.jpg",
     source: { kind: "md", path: "th10/th10.md" },
   },
   {

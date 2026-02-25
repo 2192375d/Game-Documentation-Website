@@ -41,11 +41,7 @@ export default function WikiPage() {
 
   return (
     <div>
-      <div className="hcontainer"
-        style={{
-          minWidth: "50rem",
-          justifyContent: "space-between"
-        }}>
+      <div className="hcontainer wikipageheader">
         <h1>{wiki.title}</h1>
         <WikiCard wiki={wiki} />
       </div>

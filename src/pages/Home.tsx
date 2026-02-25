@@ -4,11 +4,10 @@ import WikiCard from '@components/WikiCard';
 export default function Home() {
   return (
     <div>
+      <h1>(some website)</h1>
       <p>Games I document:</p>
-      <div className="hcontainer"
-        style={{
-          gap: "10px",
-        }}>
+      <div className="hcontainer wikicardlist">
+
         {wikis.map((wiki) => (
           <WikiCard key={wiki.id} wiki={wiki} />
         ))}
