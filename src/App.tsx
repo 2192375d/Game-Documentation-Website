@@ -1,3 +1,4 @@
+import FunctionBar from "@components/FunctionBar";
 import NavBar from "@components/NavBar";
 import AppRoutes from "@routes/AppRoutes";
 
@@ -16,6 +17,7 @@ function App() {
       <main className="mainpage">
         <AppRoutes />
       </main>
+      <FunctionBar />
     </div>
   )
 }

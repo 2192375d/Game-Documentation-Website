@@ -10,7 +10,7 @@ export const wikis: Wiki[] = [
   {
     id: "th123",
     title: "Touhou 12.3: Hisoutensoku",
-    imageSrc: "th123/cover.png",
+    imageSrc: "th123/cover.jpg",
     source: { kind: "md", path: "th123/th123.md" },
   },
 ]

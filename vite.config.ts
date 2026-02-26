@@ -19,6 +19,8 @@ export default defineConfig({
       '@routes': path.resolve(__dirname, 'src/routes'),
       '@datatypes': path.resolve(__dirname, 'src/datatypes'),
       '@data': path.resolve(__dirname, 'src/data'),
+      '@styles': path.resolve(__dirname, 'src/styles'),
+      '@contexts': path.resolve(__dirname, 'src/contexts'),
     }
   },
 })

@@ -45,6 +45,12 @@
       ],
       "@data/*": [
         "./src/data/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@contexts/*": [
+        "./src/contexts/*"
       ]
     }
   },
